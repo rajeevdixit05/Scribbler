@@ -1,0 +1,31 @@
+.heading1
+{
+    font-family: 'Montez', cursive;
+    font-size: 50px;
+    color: #2519ff;
+    margin: 0px;
+    position: relative;
+    left:20px;
+    width: 50%;
+}
+.heading2
+{
+    font-family: 'Ubuntu Mono';
+     font-size: 15px;
+     color: black;
+    position: relative;
+    left:20px;
+    width: 50%;
+}
+.signB
+{
+    right: 0.5%;
+    top: 1%;
+    position: fixed;
+}
+.btn
+{
+    background-color: #2519ff;
+    color: white;
+    padding: 10px 10px;
+}
