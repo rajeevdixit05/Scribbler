@@ -28,5 +28,16 @@
     background-color: #2519ff;
     color: white;
     padding: 8px 8px;
-    border: none;
+}
+.postButtons{
+    position: fixed;
+    left: 45%;
+    top: 50%;
+}
+.btn1
+{
+    background-color: #f0c000;
+    color: black;
+    padding: 10px 10px;
+    margin-left: 10px;
 }
