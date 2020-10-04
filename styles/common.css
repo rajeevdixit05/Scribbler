@@ -11,8 +11,8 @@
 .heading2
 {
     font-family: 'Ubuntu Mono';
-     font-size: 15px;
-     color: black;
+    font-size: 15px;
+    color: black;
     position: relative;
     left:20px;
     width: 50%;
@@ -27,5 +27,6 @@
 {
     background-color: #2519ff;
     color: white;
-    padding: 10px 10px;
+    padding: 8px 8px;
+    border: none;
 }
