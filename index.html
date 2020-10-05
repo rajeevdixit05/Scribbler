@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./styles/font-awesome-4.7.0/css/font-awesome.min.css" type='text/css'>
     <!-- TODO: Include Google Fonts file here -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel='stylesheet' href='./styles/index.css' type='text/css'>
     <link rel='stylesheet' href='./styles/font.css' type='text/css'>
     <link rel='stylesheet' href='./styles/common.css' type='text/css'>
@@ -22,8 +23,8 @@
                 Explore. Imagine. Create
             </div>
             <div class="signB">
-                <button class="btn" id="si">Sign In</button>
-                <button class="btn" id="su">Sign Up</button>
+                <button class="button-primary" id="si">Sign In</button>
+                <button class="button-primary" id="su">Sign Up</button>
             </div>
         </div>
         <div class="postButtons">
@@ -38,8 +39,8 @@
     <div id="myModal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
-            <span class="close">&times;</span>
-            <h1 id="head1">Welcome Back!</h1>
+            <i class="fa fa-times close" aria-hidden="true"></i>
+            <h1 class="head1">Welcome Back!</h1>
             <form>
                 <h3 class="sh6">Username</h3>
                 <input type="text" placeholder="Enter Username">
@@ -53,8 +54,8 @@
     <div id="myModal1" class="modal1">
         <!-- Modal content -->
         <div class="modal-content1">
-            <span class="close1">&times;</span>
-            <h1 id="head2">Get Started</h1>
+            <i class="fa fa-times close1" aria-hidden="true"></i>
+            <h1 class="head1">Get Started</h1>
             <form><h3 class="sh6">Full Name</h3>
                 <input type="text" placeholder="Enter Full Name" required>
                 <h3 class="sh6">Username</h3>
@@ -65,7 +66,24 @@
                 <input type="password" placeholder="Confirm Password" required><br>
                 <button id="sub2">Sign Up</button> </form>
         </div>
-
+    </div>
+    <!-- Code for Create Post modal here -->
+    <div id="myModal2" class="modal2">
+        <!-- Modal content -->
+        <div class="modal-content2">
+            <i class="fa fa-times close2" aria-hidden="true"></i>
+            <h1 class="head1">Pen Your Post</h1>
+            <form>
+                <br>
+                <span class="head1">Title:</span><br>
+                <input type="textbox" id="title1" placeholder="Enter title of your post">
+                <br><br>
+                <span class="head1">Content:</span><br>
+                <textarea class="textbox" name="textbox" rows="5" placeholder="Enter the contents of your post" value=""></textarea>
+<!--                <input type="textbox" placeholder="Enter the contents of your post" id="content">-->
+                <button type="button" class="btn btn-success col-md-12 text-center" id="sub3">Create</button>
+            </form>
+        </div>
     </div>
     <script src="scripts/common.js"></script>
     <script src="scripts/index.js"></script>
