@@ -48,7 +48,7 @@ body{
     cursor: pointer;
 }
 
-#head1,#head2 {
+.head1 {
     font-family: 'Josefin Sans';
     font-weight: 500;
     text-align: center;
@@ -89,6 +89,17 @@ input[type=textbox] {
     padding: 10px;
     border: none;
     background-color: #f1f1f1;
+}
+
+.textbox {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f1f1f1;
+    font-family: sans-serif;
+}
+textarea {
+  resize: auto;
 }
 
 #sub1 {
@@ -174,7 +185,7 @@ input[type=textbox] {
    margin: 15% auto; /* 15% from the top and centered */
    padding: 20px;
    border: 1px solid #888;
-   width: 80%; /* Could be more or less, depending on screen size */
+   width: 80%;  /*Could be more or less, depending on screen size */
  }
 
 /* The Close Button */
@@ -193,13 +204,14 @@ input[type=textbox] {
 
  #content {
    height: 300px;
-   width: 1095px;
- }
+}
 
+/*
 #title1{
    width: 400px;
- }
- #sub2 {
+}
+*/
+#sub2 {
    background-color: #0ec038;
    color: white;
    text-align: center;
@@ -210,3 +222,8 @@ input[type=textbox] {
    transform: translate(-50%);
    cursor: pointer;
  }
+
+#sub3 {
+    display:block;
+    margin: 10px 0 0 0;
+}
